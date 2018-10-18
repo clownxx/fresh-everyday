@@ -1,0 +1,116 @@
+@charset "uft-8";
+/* 清除所有样式 */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+input{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/* 主内容 */
+main{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid green;
+}
+/* 左边 */
+.fresh-l{
+    width: 300px;
+    height: 500px;
+}
+.fresh-l img{
+    float: right;
+}
+.fresh-l p{
+    color: #69A81E;
+    font-size: 25px;
+    margin-top: 10px;
+    text-align: right;
+    float: right;
+}
+/* 右边 */
+.fresh-r{
+    margin-left: 30px;
+}
+/* 用户注册 */
+.fresh-r .fresh_register{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    width: 350px;
+    border-bottom: 1px solid #c3c3c3;
+    position: relative;
+}
+/* 登录 */
+.fresh-r .fresh_register h2{
+    margin-left: 20px;
+    color: #c3c3c3;
+    margin-bottom: 10px;
+    float: left;
+}
+.fresh-r .fresh_register a{
+   position: absolute;
+   right: 0;
+    color: #69A81E;
+    display: flex;
+    align-items: center;
+}
+/* 表单 */
+.fresh_form{
+    width: 400px;
+    height: 470px;
+    border-left: 1px solid #c3c3c3;
+    opacity: .8;
+    margin-bottom: 120px;
+}
+.fresh_form label{
+    display: inline-block;
+    margin-left: 30px;
+    height: 40px;
+    width: 80px;
+    color: #999;
+    font-size: 14px;
+}
+.fresh_form input{
+    height: 40px;
+    width: 287px;
+    margin-top: 33px;
+    border: 1px solid #c3c3c3;
+}
+/* 复选框 */
+.check{
+    margin-top: 33px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+.fresh_form .checkout{
+    width: 16px;
+    height: 16px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.fresh_form p{
+    margin-left: 10px;
+    font-size: 14px;
+    display: inline-block;
+}
+/* 提交 */
+.fresh_form .sumbit{
+    width: 360px;
+    height: 40px;
+    background: green;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin: 40px 0 0 30px;
+}

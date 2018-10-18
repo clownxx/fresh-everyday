@@ -1,0 +1,137 @@
+/* 清除所有样式 */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+input{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/* 头部 */
+header{
+    width: 100%;
+    height: 130px;
+    margin-left: 180px;
+    display: flex;
+    align-items: center;
+}
+/* 中间 */
+main{
+    width: 100%;
+    height: 515px;
+    border-bottom: 2px solid green;
+}
+main .box{
+    width: 100%;
+    height: 480px;
+    background: url(../img/bg.png);
+    display: flex;
+    align-items: center;
+}
+main .login_text{
+    writing-mode: vertical-lr;
+    color: white;
+    font-size: 35px;
+}
+main .login_logo{
+    margin:0 105px 0 150px;
+}
+main .login_form{
+    width: 370px;
+    height: 380px;
+    background: white;
+    margin-left: 50px;
+}
+/* 用户登录 */
+main .login_form .fresh_login {
+display: flex;
+align-items: center;
+margin-top: 26px;
+height: 30px;
+}
+main .login_form .fresh_login h2{
+    margin-left: 20px;
+    color: #c3c3c3;
+    margin: 0 0 10px 77px;
+    float: left;
+}
+main .login_form .fresh_login a{
+    float: right;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    float: left;
+    margin-bottom: 5px;
+    margin-left: 30px;
+
+}
+main .login_form .fresh_login a span{
+    line-height: 30px;
+    color: green;
+}
+hr{
+    margin: 10px 35px 20px 35px;
+    box-sizing: border-box;
+    color: #c3c3c3;
+}
+.login_form form{
+    width: 310px;
+    margin-left: 30px;
+}
+.login_form form .username,.login_form form .password{
+    position: relative;
+}
+.login_form form input{
+    width: 310px;
+    height: 33px;
+    border: 1px solid #c3c3c3;
+    text-indent: 10px;
+    color: #c3c3c3;
+    box-sizing: border-box;
+    margin-bottom:40px;
+    background: #f8f8f8;
+}
+.login_form form .username img,.login_form form .password img{
+    position: absolute;
+    top: 4px;
+    right: 1px;
+}
+/* 复选框 */
+.login_form form .remember input{
+    width: 16px;
+    height: 16px;
+    float: left;
+}
+.login_form .remember span,.login_form .remember a{
+    font-size: 12px;
+    color: #666;
+    float: left;
+    margin-left: 10px;
+}
+.login_form .remember a{
+    float: right;
+}
+.login_form .remember a:hover{
+    color: #ffa500;
+}
+/* 登录按钮 */
+.loginbutton .button{
+    width: 308px;
+    height: 45px;
+    background: green;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    opacity: .8;
+}
+
+
+
+
