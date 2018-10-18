@@ -1,0 +1,263 @@
+@charset "utf-8";
+*{
+    padding: 0;
+    margin: 0;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+main {
+    margin-bottom: 30px;
+}
+main .navbar_con{
+    width: 100%;
+    height: 50px;
+}
+main .navbar_con .navbar{
+    width: 80%;
+    height: 50px;
+    margin: auto;
+}
+main .navbar_con .navbar h1{
+    width: 190px;
+    height: 50px;
+    background: green;
+    font-size: 14px;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+}
+main .navbar_con .navbar ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 200px;
+    margin-top: -35px;
+}
+main .navbar_con .navbar ul li{
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 1px solid slategrey;
+}
+main ul #vega{
+    border-right: none;
+    border-bottom: none;
+}
+main .navbar_con .navbar ul a{
+    text-decoration: none;
+    color: rgb(155, 154, 154);
+    font-size: 13px;
+}
+main .navbar_con .navbar ul a:hover{
+    color: orange; 
+}
+main .center_banner {
+    width: 100%;
+    height: 300px;
+    border-top: 2px solid green;
+    display: flex;
+}
+main .center_banner .list_nav{
+    width: 188px;
+    height: 298px;
+    border: 1px solid rgb(199, 206, 212);
+    margin-left: 10%;
+}
+main .center_banner .list_nav ul{
+    list-style-type: none;
+}
+main .center_banner .list_nav ul li{
+    width: 188px;
+    height: 48px;
+    border-bottom:1px solid rgb(199, 206, 212);
+    line-height: 48px;
+    display: flex;
+}
+main .center_banner .list_nav ul a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin-left: 10px;
+}
+main .center_banner .list_nav ul a:hover{
+    color: orange;
+}
+main .center_banner .list_nav ul .back_img1{
+    width: 35px;
+    height: 35px;
+    background: url("../img/1.png") center center no-repeat;
+    margin: 5px 0 0 15px;
+}
+main .center_banner .list_nav ul .back_img2{
+    width: 35px;
+    height: 35px;
+    background: url("../img/2.png") center center no-repeat;
+    margin: 5px 0 0 15px;
+}
+main .center_banner .list_nav ul .back_img3{
+    width: 35px;
+    height: 35px;
+    background: url("../img/3.png") center center no-repeat;
+    margin: 5px 0 0 15px;
+}
+main .center_banner .list_nav ul .back_img4{
+    width: 35px;
+    height: 35px;
+    background: url("../img/4.png") center center no-repeat;
+    margin: 5px 0 0 15px;
+}
+main .center_banner .list_nav ul .back_img5{
+    width: 35px;
+    height: 35px;
+    background: url("../img/5.png") center center no-repeat;
+    margin: 5px 0 0 15px;
+}
+main .center_banner .list_nav ul .back_img6{
+    width: 35px;
+    height: 35px;
+    background: url("../img/6.png") center center no-repeat;
+    margin: 5px 0 0 15px;
+}
+main .center_banner .banner{
+    width: 760px;
+    height: 300px;
+    overflow: hidden;
+    
+}
+main .center_banner .banner ul{
+    width: 3040px;
+    height: 300px;
+    list-style-type:none;
+    animation: banner 10s linear infinite alternate;
+}
+main .center_banner .banner ul li{
+    width: 760px;
+    height: 300px;
+    float: left;
+    background: green;
+}
+main .center_banner .banner ul img{
+    width: 760px;
+    height: 300px;
+}
+@keyframes banner{
+    0%{transform: translateX(0px)}
+    100%{transform: translateX(-2280px)}
+}
+main .center_banner .right_img{
+    width: 268px;
+    height: 300px;
+}
+main .center_banner .right_img .right_img1{
+    width: 268px;
+    height: 150px;
+}
+main .center_banner .right_img .right_img2{
+    width: 268px;
+    height: 150px;
+}
+main .center_banner .right_img .right_img1 img{
+    width: 268px;
+    height: 150px;
+}
+main .center_banner .right_img .right_img2 img{
+    width: 268px;
+    height: 150px;
+}
+main .center_list_box{
+    width: 80%;
+    margin: auto;
+}
+main .center_list_box .list{
+    width: 100%;
+    height: 365px;
+    
+}
+main .center_list_box .list .list_title_box{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid green;
+}
+main .center_list_box .list .list_title_box h1{
+    font-size: 16px;
+    color: rgb(29, 189, 29);
+    line-height: 80px;
+}
+main .center_list_box .list .list_title_box a{
+    text-decoration: none;
+    color: rgb(155, 154, 154);
+    font-size: 13px;
+    line-height: 80px;
+}
+main .center_list_box .list .list_title_box a:hover{
+    color: orange;
+}
+main .center_list_box .list .list_img_box {
+    width: 100%;
+    height: 300px;
+    display: flex;
+
+}
+main .center_list_box .list .list_img_box .list-img1{
+    width: 229px;
+    height: 300px;
+}
+main .center_list_box .list .list_img_box .list-img1 img{
+    width: 229px;
+    height: 300px;
+}
+main .center_list_box .list .list_img_box .list-font_img_box{
+    width: 250px;
+    height: 300px;
+    border: 1px solid rgb(222, 226, 224);
+    border: 1px solid rgb(222, 226, 224);
+}
+main .center_list_box .list .list_img_box .list-font_img_box:hover{
+    border-color: orange;
+    opacity: .8;
+}
+main .center_list_box .list .list_img_box .list-font_img_box .list-title{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+main .center_list_box .list .list_img_box .list-font_img_box .list-title span{
+    font-size: 14px;
+    line-height: 35px;
+    text-align: center;
+}
+main .center_list_box .list .list_img_box .list-font_img_box .list-title a{
+    text-decoration: none;
+    color: rgb(59, 58, 58);
+
+}
+main .center_list_box .list .list_img_box .list-font_img_box .list-title a:hover{
+    color: orange;
+}
+main .center_list_box .list .list_img_box .list-font_img_box .list-font{
+    width: 200px;
+    height: 50px;
+    margin: auto;
+}
+main .center_list_box .list .list_img_box .list-font_img_box .list-font span{
+    font-size: 20px;
+    color: rgb(133, 15, 15);
+    line-height: 50px;
+    padding-left: 60px;
+}
+main .center_list_box .list .list_img_box .list-img2{
+    width: 190px;
+    height: 190px;
+    margin-top: 30px;
+    margin: auto;
+    
+}
+main .center_list_box .list .list_img_box .list-img2 img{
+    width: 190px;
+    height: 190px;
+}

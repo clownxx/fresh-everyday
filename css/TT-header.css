@@ -27,14 +27,14 @@ header{
 }
 .header_con .welcome_fl small{
     float: left;
-    margin-left: 70px;
+    margin-left: 150px;
     line-height: 30px;
     color: #736f6a;
 }
 /* 登录导航栏 */
 .header_con nav{
-float: right;
-margin-right: 70px;
+    float: right;
+    margin-right: 150px;
 }
 .header_con nav ul{
    display: flex;
@@ -61,7 +61,7 @@ margin-right: 70px;
 }
 /* logo标志 */
 .header_search .logo_fl{
-    margin-left: 70px;
+    margin-left: 150px;
     cursor: pointer;
 
 }

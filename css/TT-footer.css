@@ -9,6 +9,7 @@ footer{
     height: 145px;
     padding-top: 40px;
     box-sizing: border-box;
+    border-top: 2px solid green;
 }
 /* 导航栏 */
 footer nav{
