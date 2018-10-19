@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>天天生鲜首页</title>
+    <link rel="stylesheet" href="./css/TT-header.css">
+    <link rel="stylesheet" href="./css/TT-footer.css">
+    <link rel="stylesheet" href="./css/shop-main.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="header_con">
+            <!-- 第一部分 -->
+            <!-- 欢迎 -->
+            <div class="welcome_fl"><small>欢迎来到天天生鲜!</small></div>
+            <!-- 登录导航栏 -->
+
+            <nav>
+                <ul>
+                    <li><a href=""><small>登录</small></a></li>
+                    <li><a href=""><small>注册</small></a></li>
+                    <li><a href=""><small>首页</small></a></li>
+                    <li><a href=""><small>用户中心</small></a></li>
+                    <li><a href=""><small>我的购物</small></a></li>
+                    <li><a href=""><small>我的收藏</small></a></li>
+                </ul>
+            </nav>
+
+        </div>
+        <!-- 第二部分 -->
+        <div class="header_search">
+            <!-- logo标志 -->
+            <div class="logo_fl"><img src="./img/logo.png" alt="天天生鲜"></div>
+            <!-- 收索 -->
+            <div class="search_fc">
+                <input type="text" placeholder="搜索商品">
+                <input type="button" value="搜索">
+                <div class="search_logo"></div>
+            </div>
+            <!-- 购物车 -->
+            <div class="shop_fr">
+                <input type="text" value="我的购物车">
+                <div class="shop-text">0</div>
+                <div class="shop_logo"></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- 导航栏 -->
+        <div class="navbar_con">
+            <div class="navbar">
+                <h1>全部商品分类</h1>
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">禽类产品</a></li>
+                    <li><a href="#">速冻食品</a></li>
+                    <li><a href="#">猪牛羊肉</a></li>
+                    <li><a href="#">新鲜水果</a></li>
+                    <li><a href="#">海鲜水产</a></li>
+                    <li id="vega"><a href="#">新鲜蔬菜</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div class="nav_text">
+            <a href="#">全部分类</a>
+            <span>></span>
+            <a href="#">新鲜水果</a>
+            <span>></span>
+            <a href="#">商品详情</a>
+        </div>
+        <div class="shop_box">
+            <div class="shop_img_box">
+            </div>
+            <div class="shop_text">
+                <div class="shop_title">
+                    <h1>千里山 海南金煌芒果 1.75kg装</h1>
+                    <p>【为什么好吃的芒果总要预定？海南直采树上熟 芒果中的贵族 台湾高质品种】【香甜多汁 入口即化】【精选一级大果 空运送达5天内到家】</p>
+                </div>
+                <div class="price">
+                    <p><em>¥</em>&nbsp;38.90 </p>
+                    <span>单 位：500g</span>
+                </div>
+                <div class="number">
+                    <form oninput="result.value=parseInt(rangeVal.value)">
+                        <label>0</label>
+                        <input type="range" id="rangeVal" min="0" max="50" value="1">
+                        <label>50</label>
+                        <label>你购买的数量为：</label>
+                        <output name="result" for="rangeVal"></output>
+                    </form>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;库存：50</p>
+                </div>
+                <div class="price_2">
+                    <p>总价:&nbsp;&nbsp;<span>38.90元</span></p>
+                </div>
+                <div class="buy">
+                    <div class="buy_1">
+                        <a href="#">立即购买</a>
+                    </div>
+                    <div class="buy_2">
+                        <a href="#">加入购物车</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="center_box">
+            <div class="left_box">
+                <div class="top_title">
+                    <span>新品推荐</span>
+                </div>
+                <div class="center_img">
+                    <a href="#"><img src="./img/5523aa83N67e99470.jpg" alt=""></a>
+                </div>
+                <div class="center_text">
+                    <p><a href="#">富爸爸 韩国风味泡菜 切件瓶装白菜泡菜</a></p>
+                    <span>￥19.90</span>
+                </div>
+                <hr>
+                <div class="center_img">
+                    <a href="#"><img src="./img/5523aa83N67e99470.jpg" alt=""></a>
+                </div>
+                <div class="center_text">
+                    <p><a href="#"></a>富爸爸 韩国风味泡菜 切件瓶装白菜泡菜</a></p>
+                    <span>￥19.90</span>
+                </div>
+            </div>
+            <div class="right_box">
+                <div class="right_title">
+                    <div class="right_title_1">
+                        <a href="#">商品介绍</a>
+                    </div>
+                    <div class="right_title_2">
+                        <a href="#" id="talk">评论</a>
+                    </div>
+                    <div class="right_title_box"></div>
+                </div>
+                <div class="main_1">
+                    <div class="main_title">
+                        <p>商品详情：</p>
+                    </div>
+                    <div class="main_article">
+                        <div class="main_article1">
+                            <p>商品名称：富爸爸切件瓶装白菜泡菜</p>
+                            <p>分类：泡菜</p>
+                        </div>
+                        <div class="main_article1">
+                            <p>商品编号：3041089</p>
+                            <p>重量：500-1kg</p>
+                        </div>
+                        <div class="main_article1">
+                            <p>商品毛重：0.81kg</p>
+                            <p>烹饪建议：卤菜，火锅，炒菜，炖菜</p>
+                        </div>
+                        <div class="main_article1">
+                            <p>商品产地：山东潍坊</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href=""><small>关于我们</small></a></li>
+                <li><a href=""><small>联系我们</small></a></li>
+                <li><a href=""><small>招聘人才</small></a></li>
+                <li><a href=""><small>友情链接</small></a></li>
+            </ul>
+        </nav>
+        <div class="footer_text">
+            <small>CopyRight All Rights Reserved</small>
+            <small>电话：010-****888 京ICP备*******8号</small>
+        </div>
+    </footer>
+</body>
+
+</html>
